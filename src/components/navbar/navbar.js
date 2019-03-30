@@ -1,9 +1,11 @@
 import React from 'react';
 import './navbar.css';
+import DrawerToggleButton from '../Sidedrawer/DrawerToggleButton';
 
-const navbar = () => (
+const navbar = props => (
     <header className='navigation-container'>
         <nav className='navigation'>
+            <DrawerToggleButton click={props.drawerClickHander}/>
             <div className='navigation-logo'>THE LOGO</div>
             <div className='spacer'/>
             <div className='navigation-items'>

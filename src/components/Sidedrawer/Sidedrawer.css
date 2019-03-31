@@ -38,3 +38,9 @@
 .side-drawer li{
     margin: 0.5rem 0;
 }
+
+@media(min-width: 769){
+    .side-drawer{
+        display: none;
+    }
+}

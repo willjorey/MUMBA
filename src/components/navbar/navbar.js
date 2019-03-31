@@ -5,7 +5,9 @@ import DrawerToggleButton from '../Sidedrawer/DrawerToggleButton';
 const navbar = props => (
     <header className='navigation-container'>
         <nav className='navigation'>
+            <div className='navigation-toggle-btn'> 
             <DrawerToggleButton click={props.drawerClickHander}/>
+            </div>
             <div className='navigation-logo'>THE LOGO</div>
             <div className='spacer'/>
             <div className='navigation-items'>

@@ -17,12 +17,13 @@ class App extends Component {
     })
     console.log(this.state.sideDrawerOpen)
   };
-
+  //Backdrop click handler
   backdropClickHandler = () =>{
     this.setState({sideDrawerOpen:false})
   };
 
   render() {
+    // If the sidedrawer is open show the backdrop as well
     let backdrop;
     if(this.state.sideDrawerOpen){
       backdrop = <Backdrop click={this.backdropClickHandler}/>;

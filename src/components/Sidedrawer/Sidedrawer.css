@@ -20,8 +20,10 @@
     list-style: none;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     height: 100%;
+}
+.side-drawer ul img{
+    align-items: center;
 }
 
 .side-drawer a{
